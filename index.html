@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="Assets/style.css"/>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav class="navbar">
+        Weather Dashboard
+    </nav>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4">
+            <h2>Search City:</h2>
+            <input class="form-control form-control-lg " id="userInput" type="text">
+            <button type="button" class="btn btn-primary btn-lg btn-block">Search</button>            
+        </div>
+
+        <div id="cityWeather" class="col-lg-8">
+            <div class="row pb-3">
+                <div id="cityDetails" class="col-12 border rounded px-3 py-3 my-3">
+
+                </div>
+            </div>          
+        </div>
+
+        <div class="col-lg-4">
+            <h2>Search history:</h2>
+            <div class="col-12">
+                <ol id="searchHistory" class="list-group">
+
+                </ol>
+            </div>
+        
+        </div>
+
+       <div class="row pb-2 pt-1">
+        <div class="col-12 ml-2">
+            <h2>5-Day Forecast:</h2>
+        </div>
+       </div>
+
+
+        
+    </div>
+  </div>
+
+
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="Assets/script.js"></script>
+</html>

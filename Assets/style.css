@@ -1,0 +1,19 @@
+*{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* outline: dotted; */
+}
+
+.navbar{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+}
+.container{
+    font-size: 30px;
+}
+.btn{
+    font-size: 30px;
+}
